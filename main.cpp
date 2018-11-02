@@ -35,7 +35,7 @@ void Rational::add()
 {
     numerator = ((m_a * m_b) + (m_c * m_d));
     denominator = (m_b * m_d);
-    cout << numerator << "/" << denominator << endl;
+    cout << "When we add the given fractions we get: " << numerator << "/" << denominator << endl;
 }
 
 void Rational::subtract()
@@ -47,7 +47,7 @@ void Rational::multiply()
 {
     numerator = (m_a * m_c);
     denominator = (m_b * m_d);
-    cout << numerator << "/" << denominator << endl;
+    cout << "When we multiply the given fractions we get: " << numerator << "/" << denominator << endl;
 }
 
 void Rational::divide()
