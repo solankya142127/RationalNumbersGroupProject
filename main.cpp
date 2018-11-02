@@ -43,7 +43,7 @@ void Rational::subtract()
     int temp_c = (m_c * (-1));
     numerator = ((m_a * m_b) + (temp_c * m_d));
     denominator = (m_b * m_d);
-    cout << numerator << "/" << denominator << endl;
+    cout << "When we subtract the given fractions we get: " << numerator << "/" << denominator << endl;
 }
 
 void Rational::multiply()
@@ -57,7 +57,7 @@ void Rational::divide()
 {
     numerator = (m_a * m_d);
     denominator = (m_b * m_c);
-    cout << numerator << "/" << denominator << endl;
+    cout << "When we divide the given fractions we get: " << numerator << "/" << denominator << endl;
 }
 
 int main()
